@@ -1,35 +1,39 @@
 .contenedor {
     background-color: gainsboro;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    width: 500px;
+    width: auto;
     height: 500px;
     padding: 20px 20px 0px 20px;
     margin: 0;
+    display: flex;
+}
+
+.wrapper1, .wrapper2, .wrapper2 {
+    width: 100%;
 }
 
 .card {
-    width: 500px;
-    height: 400px;
+    width: 90%;
+    height: 350px;
     background-color: white;
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     position: relative;
+    padding:5px;
+    margin-left: 10px;
 }
 
 hr {
     position: absolute;
-    width: 30rem;
-    top: 9rem;
+    width: 90%;
+    top: 7rem;
     border: none;
-    right:10px;
+    margin-left: 10px;
     border-bottom: 0.04rem solid #e6e6e6;
 }
 
-.wrapper {
-    width: 100%;
-}
 
 .textCenter {
     text-align: center;
@@ -55,12 +59,26 @@ p {
 }
 
 
-button {
-    width: 100%;
+#btn {
+    width: 93%;
     height: 50px;
    background-color:dodgerblue;
    border: none;
    text-transform: uppercase;
    color:white;
    padding: 0 !important;
+   margin-left: 10px;
+
+}
+
+.btnBgRed {
+    width: 93%;
+    height: 50px;
+   background-color:red;
+   border: none;
+   text-transform: uppercase;
+   color:white;
+   padding: 0 !important;
+   margin-left: 10px;
+
 }
