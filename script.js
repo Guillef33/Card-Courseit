@@ -1,8 +1,9 @@
 const btn = document.getElementById('btn');
 const title = document.getElementsByClassName('title');
+const hr = document.getElementsByTagName('hr');
 
-btn.classList.add('btnBgRed');
-
-
+btn.innerHTML = ('Cambio de texto en el boton')
+    
 console.log(btn);
 console.log(title);
+console.log(hr)
